@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d1cb74f714f42458dbb19b7f973c57, type: 3}
+  m_Name: 2x1Path_1
+  m_EditorClassIdentifier: 
+  tileName: 2x1Path_1
+  tileActive: 1
+  size: {x: 2, y: 1}
+  tileSprite: {fileID: -40764301, guid: 0c2cc9b5a9fc3ee438fb95b523eb66f1, type: 3}
+  type: 0
+  currentDoors:
+  - connected: 0
+    position: 3
+    cellOffset: {x: 0, y: 0}
+    offsetPositions:
+    - inCaseOfIndex: 1
+      offsetPosition: {x: -1, y: 0}
+    assigned: 0
+  - connected: 0
+    position: 2
+    cellOffset: {x: -1, y: 0}
+    offsetPositions:
+    - inCaseOfIndex: 0
+      offsetPosition: {x: 1, y: 0}
+    assigned: 0
+  mainDoorLocation: {x: 0, y: 0}
+  tileRarity: 100
